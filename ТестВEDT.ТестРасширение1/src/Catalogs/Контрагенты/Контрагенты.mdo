@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f5df449-4660-49c5-9a33-e4e427ceb4d9" extendedConfigurationObject="8ff26a1a-9cef-4316-91e6-f847ffe3aa38">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f5df449-4660-49c5-9a33-e4e427ceb4d9" extendedConfigurationObject="8ff26a1a-9cef-4316-91e6-f847ffe3aa38">
   <producedTypes>
     <objectType typeId="a0585d5a-bb93-4057-9632-13ac47e41058" valueTypeId="cba69d04-87c5-4dac-8a22-65a5307fef20"/>
     <refType typeId="078b2964-d9a3-40be-8968-f11fb8bc2bdb" valueTypeId="deffeb65-194d-4b30-82f5-157f5e838244"/>
@@ -11,7 +11,27 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <checkUnique>true</checkUnique>
+  <attributes uuid="b0e6901f-bb28-433a-aa26-f870c0a61f1b">
+    <name>Расш1_Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

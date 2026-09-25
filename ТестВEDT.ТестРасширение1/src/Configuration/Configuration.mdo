@@ -42,4 +42,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Расш1_СправочникВРасширении</catalogs>
 </mdclass:Configuration>

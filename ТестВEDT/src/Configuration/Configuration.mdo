@@ -41,4 +41,5 @@
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
 </mdclass:Configuration>
